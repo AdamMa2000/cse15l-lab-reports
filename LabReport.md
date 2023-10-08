@@ -1,6 +1,6 @@
-#Lab Report 1
+# Lab Report 1
 
-##Command "cd"
+## Command "cd"
 
 1.
 
@@ -21,4 +21,25 @@ When I entered and executed the "cd" command, I was in the [user@sahara ~/lectur
 
 When I try to change the directory, the error is displayed because Hello.java is a file name, not a directory, and the cd command changes the working directory, not the file. If you want to view or edit the content, you should use the cat command.
 
-##Command "ls"
+## Command "ls"
+
+1.
+
+![ls1](https://github.com/AdamMa2000/cse15l-lab-reports/assets/86699770/3bc806b3-8fd4-4393-9f7e-6ae1629c21fb)
+
+After using the cd command to enter lecture1, execute the ls command to list all files. I can see the files "Hello.class, Hello.java, messages, README".
+
+2.
+
+![ls2](https://github.com/AdamMa2000/cse15l-lab-reports/assets/86699770/af8c0076-6e78-431e-823a-76ed9fbac701)
+
+After using ls to list the folders in Lecture1, you can continue to use the ls command to enter the messages file. This will list all the file names in the file.
+
+3.
+
+![ls3](https://github.com/AdamMa2000/cse15l-lab-reports/assets/86699770/4e23eed3-4f0c-48e7-b02f-27cc29138617)
+
+
+After executing the ls command in Lecture1, all the files in the directory are displayed. When I want to use ls to view the contents of Hello.java, only the directory name Hello.java is displayed. This is because there is no directory in the file.
+
+## Command "cat"
