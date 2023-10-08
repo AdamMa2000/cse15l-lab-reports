@@ -43,3 +43,23 @@ After using ls to list the folders in Lecture1, you can continue to use the ls c
 After executing the ls command in Lecture1, all the files in the directory are displayed. When I want to use ls to view the contents of Hello.java, only the directory name Hello.java is displayed. This is because there is no directory in the file.
 
 ## Command "cat"
+
+1.
+
+![cat1](https://github.com/AdamMa2000/cse15l-lab-reports/assets/86699770/46b74824-af3d-47aa-a112-14adba770d1e)
+
+After executing a file in the Lecture1/messages directory, the contents inside the file will be displayed. I think this is similar to print out.
+
+2.
+
+![cat2](https://github.com/AdamMa2000/cse15l-lab-reports/assets/86699770/cebd6e7b-d030-4ef8-a459-cd7c852f8308)
+
+An error occurred when I tried to cat messages in the lecture1 directory. The reason for this problem is that cat wants to display the text content in the file, not the directory.
+
+3.
+
+![cat3](https://github.com/AdamMa2000/cse15l-lab-reports/assets/86699770/db69496f-a982-41a9-9139-23f39752e7e9)
+
+When I enter cat > wow.txt, a text document named wow will be created. Then command will let me enter the content that the document wants to store. After I enter hello world, I can execute the cat wow.txt file to view it. The content inside is gone.
+
+
