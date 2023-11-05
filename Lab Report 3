@@ -27,7 +27,7 @@ Code inside ArrayTests.java：
   }
 
 3.The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
-![Image](https://github.com/AdamMa2000/cse15l-lab-reports/blob/main/lab3.jpg?raw=true)
+![cd1](https://github.com/AdamMa2000/cse15l-lab-reports/blob/main/lab3.jpg?raw=true)
 
 ##4. The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
 ###The code before fix:
