@@ -9,13 +9,13 @@ I chose the error of "averageWithoutLowest" in ArrayExamples.
 Provide:
 ## 1.A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
 Code inside ArrayTests.java：
- @Test
+''' @Test
   public void averageWithoutLowest() {
     double [] input1 = {-1.0, -2.0, -3.0, -3.0};
     double expected = -1.5;
     assertEquals(expected, ArrayExamples.averageWithoutLowest(input1), 0.01);
   }
-
+'''
 
 ## 2.An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
 Code inside ArrayTests.java：
@@ -71,3 +71,4 @@ static double averageWithoutLowest(double[] arr) {
 In the unmodified code, it is assumed that there is only one smallest number in the array. After finding this number, start using the for loop statement to start calculating the number of times this number appears. This does not require the smallest number in the array.
 
 # Part 2 - Researching Commands
+
