@@ -9,7 +9,7 @@ I chose the error of "averageWithoutLowest" in ArrayExamples.
 Provide:
 ## 1.A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
 Code inside ArrayTests.java：
-''' 
+'''
 @Test
   public void averageWithoutLowest() {
     double [] input1 = {-1.0, -2.0, -3.0, -3.0};
