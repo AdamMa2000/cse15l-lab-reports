@@ -1,0 +1,31 @@
+CSE15L Lab Report 3 - Bugs and Commands (Week 5)
+
+# Part1:Bugs
+Part 1 - Bugs
+Choose one of the bugs from week 4’s lab.
+
+I chose the error of "averageWithoutLowest" in ArrayExamples.
+
+Provide:
+·A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
+Code inside ArrayTests.java：
+ @Test
+  public void averageWithoutLowest() {
+    double [] input1 = {-1.0, -2.0, -3.0, -3.0};
+    double expected = -1.5;
+    assertEquals(expected, ArrayExamples.averageWithoutLowest(input1), 0.01);
+  }
+
+
+·An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
+Code inside ArrayTests.java：
+@Test
+  public void averageWithoutLowest2() {
+    double [] input1 = {1.0, 2.0, 4.0};
+    double expected = 3.0;
+    assertEquals(expected, ArrayExamples.averageWithoutLowest(input1), 0.01);
+  }
+
+·The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
+
+
