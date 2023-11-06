@@ -118,4 +118,4 @@ output:
 **Write a sentence or two about what it’s doing and why it’s useful.**
 The find command identifies files and directories with "gen" in their names, including files and directories with different letter cases, demonstrating how -iname can simplify searching for names with case variations. This is useful for quickly locating a specific file or directory when the case sensitivity of a name is uncertain.
 
-> Blockquote
+---
