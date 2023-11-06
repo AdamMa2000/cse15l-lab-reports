@@ -81,7 +81,8 @@ In the unmodified code, it is assumed that there is only one smallest number in 
 
 ---
 
-# Part 2 - Researching Commands
+# Part 2 - Researching Commands#
+
 Consider the commands less, find, and grep. Choose one of them. Online, find 4 interesting command-line options or alternate ways to use the command you chose. To find information about the commands, a simple Web search like “find command-line options” will probably give decent results. There is also a built-in command on many systems called man (short for “manual”) that displays information about command
 
 I chose the ‘find’ command as an example.
