@@ -69,7 +69,7 @@ There is also the ServerStart method: int port URL Handler, which also has no re
 ---
 
 ## Part2
-![cd1](https://github.com/AdamMa2000/cse15l-lab-reports/blob/1972d9e6eacb4cf92ade37eba27b28fc04bbd873/111.jpg)
+![cd1](1972d9e6eacb4cf92ade37eba27b28fc04bbd873/111.jpg)
 
 ---
 
