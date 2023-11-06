@@ -87,7 +87,7 @@ Consider the commands less, find, and grep. Choose one of them. Online, find 4 i
 
 I chose the ‘find’ command as an example.
 
-## Give 2 examples of using it on files and directories from ./technical. Show each example as a code block that shows the command and its output, and write a sentence or two about what it’s doing and why it’s useful.
+### Give 2 examples of using it on files and directories from ./technical. Show each example as a code block that shows the command and its output, and write a sentence or two about what it’s doing and why it’s useful.
 
 ### Example1: Finding Files with a Specific Name
 
@@ -125,13 +125,74 @@ The find command identifies files and directories with "gen" in their names, inc
 
 ---
 
-1.Search Files Based On Owners and Groups
+### 1.Search Files Based On Owners and Groups
 
-Example1:
+**Example1:**
 ```
-# find / -user root -name tecmint.txt
+$ find . -mmin -5
+./test.txt
 ```
 
 **Write a sentence or two about what it’s doing and why it’s useful.**
+The meaning of this command is to find all the files and directories that I have modified in the past 5 minutes. This is very useful for me to find the files I just modified, and I don’t need to worry about forgetting what I modified.
+
+**Example2**
+```
+$ find . -mmin -10
+.
+./test.txt
+./test1.txt
+./test2.txt
+```
+
+**Write a sentence or two about what it’s doing and why it’s useful.**
+‘-mmin -10’ This command is used to search the current directory and its subdirectories for files or directories that have been modified in the past 10 minutes. The output shown includes the files test.txt and test2.txt because I just created two new files named test1.txt and test2.txt.
+
+---
+
+### 2.Find Files and Directories Based on Size
+**Example1:**
+```
+# find / -size 50M
+.
+./test.txt
+./test1.txt
+```
+
+**Write a sentence or two about what it’s doing and why it’s useful.**
+The ‘-size 50M’ command means to find files that occupy less than 50 megabytes of memory.
+
+**Example2**
+```
+# find / -size +80K -100M
+.
+./test.txt
+```
+
+**Write a sentence or two about what it’s doing and why it’s useful.**
+'-size +80K -100M' means to find files with a file size greater than 80K and less than 100M.
+
+---
+
+### 3.Find Files Based on their Permissions
+
+**Example1:**
+```
+# find . -type f -name "test1.txt" -exec rm -f {} \;
+```
+
+**Write a sentence or two about what it’s doing and why it’s useful.**
+The meaning of this command is to find a file named ‘test1.txt’ and delete this file.
+
+**Example2**
+```
+# find . -type f -name "*.txt" -exec rm -f {} \;
+```
+
+**Write a sentence or two about what it’s doing and why it’s useful.**
+The meaning of -name "*.txt" is to find all files whose names end with '.txt' and delete all these files. This can be done in batches to delete some files with the same name.
+
+---
+Source: https://www.tecmint.com/35-practical-examples-of-linux-find-command/
 
 
