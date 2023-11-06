@@ -40,5 +40,5 @@ public class StringServer {
 ```
 
 1. Hello
-1.jpg
+![cd1]
 
