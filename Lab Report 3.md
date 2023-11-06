@@ -6,6 +6,8 @@ Choose one of the bugs from week 4’s lab.
 
 I chose the error of "averageWithoutLowest" in ArrayExamples.
 
+---
+
 Provide:
 ## 1.A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
 Code inside ArrayTests.java：
@@ -77,6 +79,8 @@ static double averageWithoutLowest(double[] arr) {
 ## 5.Briefly describe why the fix addresses the issue.
 In the unmodified code, it is assumed that there is only one smallest number in the array. After finding this number, start using the for loop statement to start calculating the number of times this number appears. This does not require the smallest number in the array.
 
+---
+
 # Part 2 - Researching Commands
 Consider the commands less, find, and grep. Choose one of them. Online, find 4 interesting command-line options or alternate ways to use the command you chose. To find information about the commands, a simple Web search like “find command-line options” will probably give decent results. There is also a built-in command on many systems called man (short for “manual”) that displays information about command
 
@@ -119,3 +123,14 @@ output:
 The find command identifies files and directories with "gen" in their names, including files and directories with different letter cases, demonstrating how -iname can simplify searching for names with case variations. This is useful for quickly locating a specific file or directory when the case sensitivity of a name is uncertain.
 
 ---
+
+1.Search Files Based On Owners and Groups
+
+Example1:
+```
+# find / -user root -name tecmint.txt
+```
+
+**Write a sentence or two about what it’s doing and why it’s useful.**
+
+
