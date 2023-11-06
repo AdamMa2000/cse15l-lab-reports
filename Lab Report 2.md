@@ -57,7 +57,7 @@ There is also the ServerStart method: int port URL Handler, which also has no re
 
 ## Hello How are you
 
-![cd1](https://github.com/AdamMa2000/cse15l-lab-reports/blob/9bd878f497382352ee9603003d2c4e0becde82c0/2.jpg)
+![cd1](2.jpg)
 
 **Which methods in your code are called?**
 The command mainly uses the main method in StringServer, which is the entry point of the application. There is also the handle request method in Handler, which will be called when sending a request to the server. There is also the ServerStart method, which is called to start the Web server.
@@ -73,7 +73,7 @@ There is also the ServerStart method: int port URL Handler, which also has no re
 
 ## Part2
 
-![cd1](https://github.com/AdamMa2000/cse15l-lab-reports/blob/9bd878f497382352ee9603003d2c4e0becde82c0/111.jpg)
+![cd1](111.jpg)
 
 ---
 
