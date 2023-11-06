@@ -39,7 +39,7 @@ public class StringServer {
 
 ```
 
-## Hello ##
+## Hello
 
 
 
@@ -55,7 +55,7 @@ Handle request in Handler: URI URL, this has no related fields
 
 There is also the ServerStart method: int port URL Handler, which also has no related fields.
 
-## Hello How are you ##
+## Hello How are you
 
 
 ![cd1](2e8c2dbb813af24ccaa11af896a2ef6fad9cf391/2.jpg)
@@ -73,6 +73,7 @@ There is also the ServerStart method: int port URL Handler, which also has no re
 ---
 
 ## Part2
+
 ![cd1](1972d9e6eacb4cf92ade37eba27b28fc04bbd873/111.jpg)
 
 ---
