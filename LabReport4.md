@@ -6,10 +6,7 @@ For the lab report this week, reproduce the task from above on your own. For eac
 My Step:
 ![cd](LabReport4(1).png)
 
-First I type **ssh cs15lfa23ns@ieng6.ucsd.edu**, then press <Enter>, then enter my password. I used the above steps to log in to ieng6.
+First I type **ssh cs15lfa23ns@ieng6.ucsd.edu**, then press <Enter>, at the end enter my password. I successfully logged into ieng6.
 
-
-
-
-
+## Step5：Clone your fork of the repository from your Github account 
 ![cd](LabReport4(2).jpg)
