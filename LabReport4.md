@@ -39,3 +39,4 @@ I used the following steps:
 screenshot:
 ![cd](LabReport4(4).jpg)
 ![cd](LabReport4(5).jpg)
+![cd](LabReport4(6).jpg)
