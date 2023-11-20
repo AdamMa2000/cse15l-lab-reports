@@ -32,7 +32,10 @@ Code inside ArrayTests.java：
 ```
 
 ### 3.The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
-![cd1]()
+
+![cd1](LabReport3(1).jpg)
+![cd1](LabReport3(2).jpg)
+
 
 ### 4. The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
 **The code before fix:**
