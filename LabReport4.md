@@ -20,7 +20,7 @@ screenshot：
 ![cd](LabReport4(2).jpg)
 
 I used the following steps: 
-1. **git clone git@github.com:UCSDNobel1998/lab7.git**
+1. git clone git@github.com:UCSDNobel1998/lab7.git；
 2. Press <Enter> //*Clone by using SSH Url.*
 
 ## Step 6: Run the tests, demonstrating that they fail
