@@ -20,7 +20,7 @@ screenshot：
 ![cd](LabReport4(2).jpg)
 
 I used the following steps: 
-1. git clone git@github.com:UCSDNobel1998/lab7.git；
+1. git clone git@github.com/AdamMa2000/lab7.git；
 2. Press <Enter> //*Clone by using SSH Url.*
 
 ## Step 6: Run the tests, demonstrating that they fail
@@ -43,9 +43,9 @@ I used the following steps:
 1. Type in **ls**；<Enter> //*List all files in Lab7*
 2. vim ListExamples.java；<Enter> //*Open the ListExamples.java file in Vim*
 3. /index1；<enter> //*Search “index1”*
-4. nnnnnnnnn; C+E //*I pressed the n key 9 times and found the "index1" that needed to be modified. Pressing the C and E keys simultaneously deleted "index1"*
+4. nnnnnnnnn; c + e //*I pressed the n key 9 times and found the "index1" that needed to be modified. Pressing the C and E keys simultaneously deleted "index1"*
 5. Type in **index2** //*Enter "index2"*
-6. <Esc>；：wq //*Save and exit*
+6. <Esc> ：wq //*Save and exit*
 
 screenshot:
 ![cd](LabReport4(5).jpg)
