@@ -1,6 +1,7 @@
 # CSE15L Lab Report 3 - Bugs and Commands (Week 5)
 
 ## Part1:Bugs
+
 Part 1 - Bugs
 Choose one of the bugs from week 4’s lab.
 
