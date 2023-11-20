@@ -17,7 +17,7 @@ I used the following steps:
 
 screenshot：
 
-![cd](LabReport4(2).jpg)
+![cd](LabReport4(2).png)
 
 I used the following steps: 
 1. git clone git@github.com/AdamMa2000/lab7.git；
