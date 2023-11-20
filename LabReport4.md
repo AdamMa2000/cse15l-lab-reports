@@ -66,7 +66,7 @@ I used the following steps:
 ## Step 9: Commit and push the resulting change to my GitHub account
 
 screenshot:
-![cd](LabReport4(8).jpg)
+![cd](LabReport4(8).png)
 
 I used the following steps: 
 1. **git add ListExamples.java<enter>**；**<enter>** //*This command temporarily saves the changes to ListExamples.java*
