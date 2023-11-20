@@ -12,10 +12,10 @@ Provide:
 ### 1.A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
 Code inside ArrayTests.java：
 ```
- @Test
+@Test
   public void averageWithoutLowest() {
-    double [] input1 = {-1.0, -2.0, -3.0, -3.0};
-    double expected = -1.5;
+    double [] input1 = {1.0, 1.0, 10.0, 18.0};
+    double expected = 14.0;
     assertEquals(expected, ArrayExamples.averageWithoutLowest(input1), 0.01);
   }
 ```
@@ -23,10 +23,10 @@ Code inside ArrayTests.java：
 ### 2.An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
 Code inside ArrayTests.java：
 ```
-@Test
+  @Test
   public void averageWithoutLowest2() {
-    double [] input1 = {1.0, 2.0, 4.0};
-    double expected = 3.0;
+    double [] input1 = {4.0, 6.0, 8.0};
+    double expected = 7.0;
     assertEquals(expected, ArrayExamples.averageWithoutLowest(input1), 0.01);
   }
 ```
