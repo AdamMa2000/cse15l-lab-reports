@@ -29,14 +29,39 @@ screenshot:
 ![cd](LabReport4(3).jpg)
 
 I used the following steps: 
-1.type in **cd lab7**
-2.<Enter>; //*Changed directory to lab7.*
-3.javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java<enter> //*This command compiles all files ending with .java in the current directory, using JUnit.*
-4.java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests //*The purpose of this command is to run the JUnit test class named ListExamplesTests to ensure that the required classes can be found during the running process.*
+1. type in **cd lab7**
+2. <Enter>; //*Changed directory to lab7.*
+3. Type in "javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java<enter>" ; //*This command compiles all files ending with .java in the current directory, using JUnit.*
+4.Type in "java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests" //*The purpose of this command is to run the JUnit test class named ListExamplesTests to ensure that the required classes can be found during the running process.*
 
 ## Step 7: Edit the code file to fix the failing test
 
 screenshot:
 ![cd](LabReport4(4).jpg)
+
+I used the following steps: 
+1. Type in **ls**；<Enter> //*List all files in Lab7*
+2. vim ListExamples.java；<Enter> //*Open the ListExamples.java file in Vim*
+3. /index1；<enter> //*Search “index1”*
+4. nnnnnnnnn; C+E //*I pressed the n key 9 times and found the "index1" that needed to be modified. Pressing the C and E keys simultaneously deleted "index1"*
+5. Type in **index2** //*Enter "index2"*
+6. <Esc>；：wq //*Save and exit*
+
+screenshot:
 ![cd](LabReport4(5).jpg)
 ![cd](LabReport4(6).jpg)
+
+I used the following steps: 
+1. cat ListExamples.java //*After saving, I use the above command to check whether the file content has been modified successfully.*
+
+## Step 8： Run the tests, demonstrating that they now succeed
+
+screenshot:
+![cd](LabReport4(7).jpg)
+
+I used the following steps: 
+1. <up><up><up><up><up> <Enter> "javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java"; <enter>; //*I found the command in history by pressing the up key five times*
+2. java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTest; <enter>； //*The above command is JUnit running ListExamplesTest*
+
+## Step 9: Commit and push the resulting change to my GitHub account
+screenshot:
