@@ -64,4 +64,11 @@ I used the following steps:
 2. java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTest; <enter>； //*The above command is JUnit running ListExamplesTest*
 
 ## Step 9: Commit and push the resulting change to my GitHub account
+
 screenshot:
+![cd](LabReport4(8).jpg)
+
+I used the following steps: 
+1. **git add ListExamples.java<enter>**；**<enter>** //*This command temporarily saves the changes to ListExamples.java*
+2. **git commit -m "Update the ListExamples.java"**；**<enter>** //*This command will have a short prompt message after completing the changes.*
+3. **git push**；**<enter>** //*This command can push the submitted content to GitHub.*
