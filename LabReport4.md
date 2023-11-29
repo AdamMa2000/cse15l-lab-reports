@@ -61,7 +61,7 @@ screenshot:
 
 I used the following steps: 
 1. ``<up><up><up><up><up> <enter>``; //*I found the command in history by pressing the up key five times*
-2. ``java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTest; <enter>``； //*The above command is JUnit running ListExamplesTest*
+2. ``java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTest`` ``<enter>``； //*The above command is JUnit running ListExamplesTest*
 
 ## Step 9: Commit and push the resulting change to my GitHub account
 
