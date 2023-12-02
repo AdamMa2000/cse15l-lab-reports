@@ -55,4 +55,7 @@ You should actually set up and run the scenario from your screenshots. It should
 
 ## Part 2 – Reflection
 
+#### In a couple of sentences, describe something you learned from your lab experience in the second half of this quarter that you didn’t know before. It could be a technical topic we addressed specifically, something cool you found out on your own building on labs, something you learned from a tutor or classmate, and so on. It doesn’t have to be specifically related to a lab writeup, we just want to hear about cool things you learned!
 
+
+During this quarter, I have improved my proficiency with Vim commands very well, and I have discovered its powerful text editing and navigation capabilities. I can use commands like search, replace, and various move shortcuts to effectively navigate and manipulate text, making my coding process faster and more accurate. Using Vim not only improves my work efficiency, but also deepens my efficiency when editing the command line.
