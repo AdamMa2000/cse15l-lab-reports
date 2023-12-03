@@ -43,9 +43,6 @@ Design a debugging scenario, and write your report as a conversation on EdStem. 
 
 ### 4. At the end, all the information needed about the setup including:
 
-#### The following screenshot is my original code
-![cd](LabReport5.jpg)
-
 **At the end, all the information needed about the setup including:**
   
 * The file & directory structure needed
@@ -58,7 +55,7 @@ Design a debugging scenario, and write your report as a conversation on EdStem. 
 * The contents of each file before fixing the bug
 
 
-``` import java.io.*;
+```import java.io.*;
 
 public class LabReport5 {
     public static void main(String[] args) {
@@ -73,7 +70,7 @@ public class LabReport5 {
         try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
             String line;
             while ((line = reader.readLine()) != null) {
-                String[] words = line.split("\\s+");
+                String[] words = line.split(" ");
                 wordCount += words.length;
             }
         } catch (IOException e) {
