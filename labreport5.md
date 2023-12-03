@@ -93,11 +93,13 @@ java LabReport5 $1
   ```
 
 * The contents of Number.txt
+  
 ```
 this  is a test
 ```
 
 * The full command line (or lines) you ran to trigger the bug
+
 ```
 String[] words = line.split("\\s+");
 ```
