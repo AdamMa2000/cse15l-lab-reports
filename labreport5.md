@@ -34,7 +34,7 @@ Design a debugging scenario, and write your report as a conversation on EdStem. 
 ***Title:*** Modified the splitting logic in the code
 
 
-***Content:*** I followed your suggestion and modified the splitting logic to help solve this problem. Below is a screenshot after I modified it. The word count within the document is now correct! thanks for your advice!
+***Content:*** I followed your suggestion and modified the splitting logic to help solve this problem. Below is a screenshot after I modified it. The word count within the document is now correct! Thanks for your advice!
 
 ![cd](LabReport5(3).jpg)
 
