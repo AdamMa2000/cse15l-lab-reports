@@ -46,6 +46,49 @@ Design a debugging scenario, and write your report as a conversation on EdStem. 
 #### The following screenshot is my original code
 ![cd](LabReport5.jpg)
 
+**At the end, all the information needed about the setup including:**
+  
+* The file & directory structure needed
+  >~/Desktop
+  >LabReports5.java
+  
+
+
+* The contents of each file before fixing the bug
+
+
+` import java.io.*;
+
+public class LabReport5 {
+    public static void main(String[] args) {
+        if (args.length != 1) {
+            System.out.println("Usage: java WordCounter filename");
+            return;
+        }
+
+        String filename = args[0];
+        int wordCount = 0;
+
+        try (BufferedReader reader = new BufferedReader(new FileReader(filename))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                String[] words = line.split("\\s+");
+                wordCount += words.length;
+            }
+        } catch (IOException e) {
+            System.err.println("Error reading file: " + filename);
+            return;
+        }
+
+        System.out.println("Word count: " + wordCount);
+    }
+}
+`
+
+* The full command line (or lines) you ran to trigger the bug
+  
+* A description of what to edit to fix the bug
+
 
 In the code, `String[] words = line.split(" ");` this command is the cause of the error. Here I should add `"\\s+";` ;The modified code is `String[] words = line.split("\\s+");` ;The problem in this code is because the original code uses a single space as a division to calculate the number of words. In this case, consecutive spaces will be judged as words, so by correcting The expression `"\\s+"` causes the command to be split based on one or more whitespace characters, thus ensuring that consecutive spaces are not counted as separate words.
 
