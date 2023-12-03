@@ -50,6 +50,7 @@ Design a debugging scenario, and write your report as a conversation on EdStem. 
   
 * The file & directory structure needed
   >~/Desktop
+  
   >LabReports5.java
   
 
