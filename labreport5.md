@@ -57,7 +57,7 @@ Design a debugging scenario, and write your report as a conversation on EdStem. 
 * The contents of each file before fixing the bug
 
 
-` import java.io.*;
+``` import java.io.*;
 
 public class LabReport5 {
     public static void main(String[] args) {
@@ -83,12 +83,26 @@ public class LabReport5 {
         System.out.println("Word count: " + wordCount);
     }
 }
-`
+```
+
+* The contents of count.sh
+
+```
+javac LabReport5.java
+java LabReport5 $1
+  ```
+
+* The contents of Number.txt
+```
+this  is a test
+```
 
 * The full command line (or lines) you ran to trigger the bug
+```
+String[] words = line.split("\\s+");
+```
   
 * A description of what to edit to fix the bug
-
 
 In the code, `String[] words = line.split(" ");` this command is the cause of the error. Here I should add `"\\s+";` ;The modified code is `String[] words = line.split("\\s+");` ;The problem in this code is because the original code uses a single space as a division to calculate the number of words. In this case, consecutive spaces will be judged as words, so by correcting The expression `"\\s+"` causes the command to be split based on one or more whitespace characters, thus ensuring that consecutive spaces are not counted as separate words.
 
