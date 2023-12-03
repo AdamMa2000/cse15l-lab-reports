@@ -54,7 +54,6 @@ Design a debugging scenario, and write your report as a conversation on EdStem. 
 
 * The contents of each file before fixing the bug
 
-
 ```import java.io.*;
 
 public class LabReport5 {
